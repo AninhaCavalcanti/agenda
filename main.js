@@ -17,7 +17,7 @@ form.addEventListener('submit',function(e) {
   linhas += linha;
 
   const corpoTabela = document.querySelector('tbody');
-  corpoTabela.innerHTML = linha;
+  corpoTabela.innerHTML += linha;
 
   inputNome.value = '';
   inputTelefone.value = '';
